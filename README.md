@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -8,12 +9,12 @@
     font-family: 'Noto Sans', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #333;
-    color: #fff; 
+    background-color: #333; /* Dark Grey Background */
+    color: #fff; /* Text color */
 }
 
 header {
-    background-color: #555; 
+    background-color: #555; /* Darker Grey Header */
     color: #fff;
     text-align: center;
     padding: 1em 0;
@@ -69,26 +70,26 @@ button {
     background-color: #333;
     color: #fff;
     padding: 10px 20px;
-    border: 1px solid #fff; 
+    border: 1px solid #fff; /* Add a white border */
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #555; 
+    background-color: #555; /* Change color on hover if desired */
 }
 
 
 .social-links {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
     margin-top: 20px;
 }
 
 .social-links a {
     text-decoration: none;
     color: #fff;
-    margin: 5px; 
+    margin: 5px; /* Add margin to create space between links */
 }
 
 .social-links a:hover {
@@ -129,7 +130,7 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
         <div class="intro">
 		<div style="text-align: center;">
             <h1>Welcome!</h1>
-            <p>Thank you for visiting my (first) portfolio page! <br><br> I am Danieal, or you can call me Dan. I am an IM student in UniSZA. <br><br> Curious to know what projects I have done? Go to the 'Projects' section! P/S: You can click 'Projects' at the top of the page to go there instantly. ;) </p>
+            <p>Thank you for visiting my (first) portfolio page! <br><br> I am Danieal, or you can call me Dan. </br> I am an IM student in UniSZA. <br><br> Curious to know what projects I have done? Go to the 'Projects' section! </br></br></br> P/S: You can click 'Projects' at the top of the page to go there instantly. ;) </p>
         </div>
 		</div>
     </section>
@@ -139,7 +140,7 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
             <h2>About Me</h2>
             <img src="https://media.tenor.com/Ow4aJ_k2rgkAAAAC/cat-monday-left-me-broken-cat.gif" alt="dak encem">
             <div style="text-align: center;">
-			My full name is Muhammad Danieal bin Rahim, and I am 21 years old. <br><br> I am currently IM3A. I have a passion for graphic designing, but somehow I have to learn how to code a website. <br> I am from Johor, and I love Photography, Pokemon, Monster Hunter, and Vocaloid! <br><br> Nice to meet you!
+			My full name is Muhammad Danieal bin Rahim, and I am 21 years old. <br><br> I am currently IM3A. I have a passion for graphic designing, but somehow I have to learn how to code a website. </br><br> I am from Johor, and I love Photography, Pokemon, Monster Hunter, and Vocaloid! <br><br> Nice to meet you! </br></br></br></br> </p>
 			</div>
 		</div>
     </section>
@@ -196,7 +197,12 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
 
 
     </div>
-    
+	
+	<br>
+	<br>
+	</br>
+	</br>
+	
 	<div style="text-align: center;">
     You can also reach me via social medias, by clicking the links below! ^^
 	</div>
@@ -215,4 +221,3 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
 </body>
 
 </html>
-
