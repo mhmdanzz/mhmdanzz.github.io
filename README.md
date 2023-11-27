@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -197,12 +196,7 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
 
 
     </div>
-	
-	<br>
-	<br>
-	</br>
-	</br>
-	
+    
 	<div style="text-align: center;">
     You can also reach me via social medias, by clicking the links below! ^^
 	</div>
